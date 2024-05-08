@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textViewUsers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Users Data"
+                android:textSize="16sp" />
+
+        </ScrollView>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
