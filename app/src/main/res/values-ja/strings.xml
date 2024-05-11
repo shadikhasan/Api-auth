@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Eco Sync</string>
+
+    <!--    //cardViewNames-->
+    <string name="cardView1">レポート</string>
+    <string name="cardView2">通知</string>
+    <string name="cardView3">コミュニティエンゲージメント</string>
+    <string name="cardView4">ソーシャルシェア</string>
+    <string name="cardView5">マップ</string>
+    <string name="cardView6">ボランティア</string>
+    <string name="change_lang">言語を変更する</string>
+</resources>

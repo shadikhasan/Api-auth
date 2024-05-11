@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ReportActivity">
+
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location" />
+
+    <EditText
+        android:id="@+id/editTextIssueType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Issue Type" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:minLines="3"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/editTextSts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sts ward number"
+        android:minLines="3"
+        android:inputType="textMultiLine" />
+
+
+    <CheckBox
+        android:id="@+id/checkBoxAnonymous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anonymous" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout>

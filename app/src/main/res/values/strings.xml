@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">Api auth</string>
+    <string name="app_name">Eco Sync</string>
+
+    <!--    //cardViewNames-->
+    <string name="cardView1">Report</string>
+    <string name="cardView2">Notification</string>
+    <string name="cardView3">Community Engagement </string>
+    <string name="cardView4">Social Sharing</string>
+    <string name="cardView5">Map</string>
+    <string name="cardView6">Volunteer</string>
+    <string name="change_lang">Change Language</string>
+
 </resources>

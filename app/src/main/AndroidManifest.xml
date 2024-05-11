@@ -15,6 +15,30 @@
         android:theme="@style/Theme.ApiAuth"
         tools:targetApi="31">
         <activity
+            android:parentActivityName=".MainActivity"
+            android:name=".VolunteerActivity"
+            android:exported="false" />
+        <activity
+            android:parentActivityName=".MainActivity"
+            android:name=".SocialSharingActivity"
+            android:exported="false" />
+        <activity
+            android:parentActivityName=".MainActivity"
+            android:name=".CommunityEngagementActivity"
+            android:exported="false" />
+        <activity
+            android:parentActivityName=".MainActivity"
+            android:name=".MapActivity"
+            android:exported="false" />
+        <activity
+            android:parentActivityName=".MainActivity"
+            android:name=".PublicNotificationActivity"
+            android:exported="false" />
+        <activity
+            android:parentActivityName=".MainActivity"
+            android:name=".ReportActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity

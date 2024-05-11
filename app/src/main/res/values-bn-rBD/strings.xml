@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Eco Sync</string>
+
+    <!--    //cardViewNames-->
+    <string name="cardView1">রিপোর্ট</string>
+    <string name="cardView2">নোটীফিকেশন</string>
+    <string name="cardView3">কমিউনিটি এনজেগমেন্ট </string>
+    <string name="cardView4">সোসিয়াল শেয়ারিং</string>
+    <string name="cardView5">ম্যাপ</string>
+    <string name="cardView6">ভলেন্টিয়ার</string>
+    <string name="change_lang">ভাষা পরিবর্তন করুন</string>
+
+</resources>
